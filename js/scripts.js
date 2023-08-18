@@ -5,7 +5,7 @@ $(document).ready(function() {
       if (gender === 'male') {
         window.location = "/female.html"
       }else {
-        window.locatio = "/male.html"
+        window.locatio= "/male.html"
       }
 
       e.preventDefault();
