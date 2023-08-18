@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    justify-content: space-around;
+}
+
+.logo {
+    width: 20%;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 400px;
+    font-family: cursive;
+}
+.navbar ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: cursive;
+
+    /* text-transform: uppercase; */
+}
+
+body{
+    background-color: lightpink;
+}
+
+.hero {
+    background-image: url(/dating1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+}
+
+.hero h1{
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+.hero p{
+    text-align: center;
+    font-family: cursive;
+    font-size: larger;
+}
+
+.btn1 {
+    margin-left: 450px;
+    padding: 20px 30px;
+    border: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    color: black;
+    background-color: #fff;
+}
+
+
+.btn2 {
+    margin-left: 175px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    background: burlywood;
+}
+
+.btn3 {
+    margin-left: 500px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    padding: 2px 4px;
+    border-radius: 10px;
+}
+
+.bd1 {
+    background-image: url(/dating2.jpg);
+    background-size: cover;
+}
+
+.container {
+    background-color: lightpink;
+}
+
+#match1, #match2, #match3, #match4, #match5, #match6, #match7, #match8{
+    display: none;
+}
